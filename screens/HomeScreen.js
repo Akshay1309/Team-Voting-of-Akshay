@@ -34,7 +34,7 @@ export default class HomeScreen extends Component {
           <View style={styles.buttonsContainer}>
             <TouchableOpacity>
               <Image
-                style={{ width: 300, height: 220, marginLeft: 5 }}
+                style={{ width: 300, height: 220, marginLeft: 15}}
                 source={require('../assets/TeamImage.png')}
               />
             </TouchableOpacity>
@@ -63,10 +63,10 @@ export default class HomeScreen extends Component {
 const styles = StyleSheet.create({
   buttonsContainer: {
     alignSelf: 'center',
-    marginTop: 50,
+    marginTop: 70,
   },
   buttons: {
-    backgroundColor:"coral",
+    backgroundColor:"green",
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
